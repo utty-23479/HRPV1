@@ -1,13 +1,38 @@
-# Node
+# General
+__pycache__/
 node_modules/
+dist/
+build/
 .env
+*.log
+*.lock
 
 # Python
-__pycache__/
 *.pyc
 .venv/
+venv/
 env/
+
+# FastAPI / DB
+*.db
+*.sqlite
+instance/
+
+# Vite
+.vite
+
+# IDEs / Editors
+.vscode/
+.idea/
 
 # OS
 .DS_Store
 
+# Temp / Backups
+*.swp
+*.bak
+
+# Testing
+.coverage
+coverage.xml
+htmlcov/
