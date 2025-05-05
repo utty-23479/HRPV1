@@ -6,6 +6,6 @@ export const get2RandomWords = async (count = 2) => {
     const data = await response.json();
     return data;
   } catch (error) {
-    return { error: `No words returned${error}` };
+    return { error: `No words returned ${error}` };
   }
 };
